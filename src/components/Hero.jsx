@@ -58,9 +58,9 @@ const Hero = () => {
           <Text
             fontWeight={400}
             textAlign={"center"}
-            pt={2}
+            p={4}
             pb={4}
-            fontSize={{ base: 16, sm: 18 }}
+            fontSize={{ base: 18, sm: 18 }}
           >
             We act as a dedicated team to help organizations and small
             businesses attract, convert and nurture appropriate audiences using
