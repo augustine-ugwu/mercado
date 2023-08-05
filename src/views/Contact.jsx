@@ -57,6 +57,7 @@ const Contact = () => {
         <Box
           borderRadius="lg"
           m={{ base: 5, md: 16, lg: 10 }}
+          mt={{ base: 20 }}
           p={{ base: 5, lg: 10 }}
         >
           <Box>
