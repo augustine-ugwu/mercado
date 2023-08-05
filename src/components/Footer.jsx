@@ -22,13 +22,14 @@ import {
 } from "react-icons/fa";
 import { BiMailSend } from "react-icons/bi";
 import Logo from "../assets/112.svg";
+import { useLocation } from "react-router-dom";
 
-// const withouSidebarRoutes = ["/contact"];
+const withouSidebarRoutes = ["/contact"];
 
 const SocialButton = ({ children, label, href }) => {
-  // const { pathname } = useLocation();
+  const { pathname } = useLocation();
 
-  // if (withouSidebarRoutes.some((item) => pathname.includes(item))) return null;
+  if (withouSidebarRoutes.some((item) => pathname.includes(item))) return null;
 
   return (
     <chakra.button
